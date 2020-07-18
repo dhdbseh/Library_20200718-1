@@ -27,6 +27,10 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
+        val imageUrl = ""
+
+        Glide.with(mContext).load(imageUrl).into(profileImg)
+
     }
 
 
